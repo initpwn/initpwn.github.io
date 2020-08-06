@@ -2,7 +2,7 @@ title: initpwn
 description: I.See.I.Break.I.Own 
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-minimal
 urls:
   keybase: https://www.keybase.io/initpwn
   blog: https://www.reddit.com/r/ReverseEngineering
