@@ -1,55 +1,183 @@
-<!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
 
-<h3 id="hello-there">Hello there!</h3>
-<p>When it rains, it obviously pours!</p>
-
-<blockquote>
-  <p>Well, this blog isn’t completed yet. 
-All posts from  <a href="https://initpwn.wordpress.com">initpwn.wordpress.com</a> will be migrtated to <a href="./another-page.html">Write ups</a> &amp;  <a href="./another-page.html">Misc</a>.</p>
-</blockquote>
-
-<hr />
-
-<h3 id="tldr">TL;DR</h3>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*
-
-** The author disclaims copyright to this source code.  
-** In place of a legal notice, here is a blessing:                                          
-**                                                                              
-**    May you do good and not evil.                                             
-**    May you find forgiveness for yourself and forgive others.                 
-**    May you share freely, never taking more than you give.
-**    Unauthorized use punishable by torture, mutilation, and vivisection.
-*/</span>
-
-<span class="k">try</span> <span class="o">{</span>
+  
     
-    <span class="k">if</span><span class="o">(</span><span class="n">isUserACow</span><span class="o">()){</span>
-        <span class="c1">//todo: never to be implemented</span>
-    <span class="o">}</span>
-    <span class="c1">// If I from the future read this I'll back in time and kill myself. </span>
-<span class="o">}</span>
-<span class="k">catch</span> <span class="o">(</span><span class="nc">FutureException</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
-    <span class="c1">// Basically, without saying too much, you're screwed. Royally and totally.</span>
-<span class="o">}</span>
-<span class="k">catch</span> <span class="o">(</span><span class="nc">LifeException</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
-    <span class="c1">//If you thought you were screwed before, oh crap, we should do something.</span>
-<span class="o">}</span>
-<span class="k">catch</span><span class="o">(</span><span class="nc">Exception</span> <span class="n">ex</span><span class="o">)</span>
-<span class="o">{</span>
-    <span class="c1">//Abandon all hope ye who enter beyond this point.</span>
-<span class="o">}</span>
-<span class="cm">/**
- * If you don't understand this code, you should be flipping burgers instead.
- */</span>
-</code></pre></div></div>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>initpwn | Hey there! :)</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="initpwn" />
+<meta name="author" content="Joseph Philip" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hey there! :)" />
+<meta property="og:description" content="Hey there! :)" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="initpwn" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="initpwn" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@initpwn" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"http://localhost:4000/","headline":"initpwn","name":"initpwn","author":{"@type":"Person","name":"Joseph Philip"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/bio-photo.jpg"},"name":"Joseph Philip"},"description":"Hey there! :)","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*
-** I've already warned you with TL;DR!
-** WELL, YOU ASKED FOR IT.
-*/</span>
-</code></pre></div></div>
-<hr />
-<p><img style="display: block; margin: auto;" alt="Whis" height="20%" width="50%" src="assets/images/whis.jpg" /></p>
 
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/light.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
+  <link rel="alternate" type="application/atom+xml" title="initpwn" href="/atom.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--home  ">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul><li><a href="/">Home</a></li><li><a href="/search/"><i class="fa fa-search"></i></a></li>
+                    <ul class="dropdown dropbtn" >...
+                      <div class="dropdown-content">
+                        
+                          <li> <a href='/categories/'>Categories</a></li>
+                        
+                          <li> <a href='/posts/'>Archive</a></li>
+                        
+                          <li> <a href='/tags/'>Tags</a></li>
+                        
+                          <li> <a href='https://keybase.io/initpwn'>ping</a></li>
+                        
+                      </div>
+                    </ul></ul>
+    </nav>
+  </div><!-- /.navigation-wrapperv <i class="fa fa-search"></i> -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+      <a href="/" class="site-logo" rel="home" title="initpwn">
+        <img src="/images/bio-photo.jpg" class="site-logo-img animated fadeInDown" alt="initpwn">
+      </a>
+    
+    
+    
+      
+        <h1 class="site-title animated fadeIn"><a href="/">initpwn</a></h1>
+      
+      <p class="site-description animated fadeIn" itemprop="description">Hey there! :)</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article>
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title"></h1>
+        
+      </header>
+      <div class="page-content">
+        
+
+<div class="entries-list">
+
+<article class="entry h-entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      
+        <a href="/Blog-Under-Restoration/" rel="bookmark">Blog Under Restoration
+</a>
+      
+    </h3>
+    
+  </header>
+  
+    <div class="entry-excerpt p-summary">
+      
+        <p><em>Hold on, I’m restoring this blog.</em></p>
+
+      
+    </div>
+  
+  
+    <footer class="entry-meta">
+      
+      <time class="entry-date dt-published" datetime="2020-08-11T00:00:00+05:30">August 11, 2020
+  </time>
+    </footer>
+  
+</article>
+<!-- Pagination links -->
+
+
+</div>
+
+
+        
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+<!-- end custom footer snippets -->
+<div class="social-icons"><a class="social-icon" href="https://linkedin.com/in/initpwn"><i class="fab fa-linkedin fa-2x" title="LinkedIn"></i></a><a class="social-icon" href="https://twitter.com/initpwn"><i class="fab fa-twitter fa-2x" title="Twitter"></i></a></div><div class="copyright">
+    
+      <p>&copy; 2020 initpwn<br> Hosted with <i class="fa fa-heart faHeart"></i> on <a href="https://github.com" rel="nofollow">Github</a> :)
+    
+  </div>
+</footer>
+
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="/assets/js/all.js"></script>
+
+
+  </body>
+
+</html>

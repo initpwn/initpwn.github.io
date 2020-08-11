@@ -1,0 +1,16 @@
+- title: Home
+  url: /  
+- title: Search
+  url: /search/
+
+- title: "..."
+  sublinks:
+  - title: Categories
+    url: /categories/
+  - title: Archive
+    url: /posts/ 
+  - title: Tags
+    url: /tags/
+  - title: ping
+    url: https://keybase.io/initpwn
+

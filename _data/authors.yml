@@ -1,0 +1,9 @@
+Joseph:
+  name: Joseph Philip
+  picture: /images/bio-photo.jpg
+  twitter: "@initpwn"
+  links:
+    - title: Twitter
+      url: https://twitter.com/initpwn
+      icon: fab fa-twitter-square
+
