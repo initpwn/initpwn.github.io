@@ -20,7 +20,7 @@ locale: en-US
 title: "initpwn"
 description: "Hey there! :)"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://initpwn.github.io
 logo: "/images/bio-photo.jpg"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
