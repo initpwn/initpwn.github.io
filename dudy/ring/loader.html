@@ -1,0 +1,60 @@
+<html>
+    <head>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3FD7Q3T4K"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L3FD7Q3T4K');
+        </script>
+        <title>
+            HBD Dudyy!!!
+        </title>
+        <style>
+            .center-block {
+                top: 100%;
+                left: 50%;
+                transform: translate3d(-50%,-50%, 0);
+                position: absolute;
+            }
+
+</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    var seconds=10;
+setInterval(function() {
+    var now = new Date().getTime();
+    if(seconds<0)
+        seconds=10;
+    document.getElementById("demo").innerHTML = "Please wait for "+seconds ;
+    seconds=seconds-1;
+    console.log(seconds);
+}, 1000);
+</script>
+        
+            <script>
+                function fade(){
+                       setTimeout('load1()',1000);       
+                }
+                function load1(){
+                    console.log("2 loaded");
+                    $.get("ascii.html", function(data, status){
+                        $('#div_content1').append(data);
+                        console.log("2 loaded");
+                    });
+                    $("#div_content1").empty();  
+                    setTimeout('load2()',10000);                  
+                }
+
+                function load2(){
+                    window.location = "../wish/" 
+                }
+            </script>
+    </head>
+<body onload="fade()">    
+            <div id="div_content1" class="center-block" >
+            </div>         
+            <p id="demo"></p>
+</body>
+</html>
+
