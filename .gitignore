@@ -13,3 +13,7 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 .editorconfig
+.gitattributes
+Gemfile
+Gemfile.lock
+jekyll-theme-so-simple.gemspec
