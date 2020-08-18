@@ -1,1 +1,0 @@
-### _So, this is my blog. :)_
