@@ -1,0 +1,57 @@
+
+==================================================================
+https://keybase.io/initpwn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://initpwn.github.io
+  * I am initpwn (https://keybase.io/initpwn) on keybase.
+  * I have a public key ASB5Ve6mPcjASZCuLt5GO-6JbRPES99nUvfgpeK1-xUxBAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cabe64a7d1760a51e4d81b98245c40b77d58b41e467f0aa0ebf7a187777e67060a",
+      "host": "keybase.io",
+      "kid": "01207955eea63dc8c04990ae2ede463bee896d13c44bdf6752f7e0a5e2b5fb1531040a",
+      "uid": "70ee59da092fc879f52080cdb5dcbe19",
+      "username": "initpwn"
+    },
+    "merkle_root": {
+      "ctime": 1577623268,
+      "hash": "85cc332a9ef11eb304980c18d645f3711222aa5a69c1ae5cca935dd13f495c582a1892fe3bb0f8c489c925dbeb14bc5c4e21676d6af325230fd97cc6fa2effd4",
+      "hash_meta": "51ba10bd6c3464d998f0f8d8521966ae69c2a2dac357e36e34401c9e78432148",
+      "seqno": 14002336
+    },
+    "service": {
+      "entropy": "RibzIgKgOy4/QA+hxcd0N1GE",
+      "hostname": "initpwn.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1577623275,
+  "expire_in": 504576000,
+  "prev": "6a27f637f8fed2edd97c7b62de664228b7bb58f3a015151dcd6a31e1fd29a6fc",
+  "seqno": 91,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgeVXupj3IwEmQri7eRjvuiW0TxEvfZ1L34KXitfsVMQQKp3BheWxvYWTESpcCW8Qgaif2N/j+0u3ZfHti3mZCKLe7WPOgFRUdzWox4f0ppvzEIClatoY+/vFwe6QSqa4MMvlHRfxtJFzFC1Xu3VpzL0gGAgHCo3NpZ8RAPXPcP55YMEfydguIHkLzq2YbTH1bEjwSBmxfaSB8vcpwZmSEImIeFVducNpTDNNEVruQ8JFtsToI5tInx3IHBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPEmfuKSC7U4f/k9skMMPtJFOWxxRtc+1clsdIHztOUbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/initpwn
+
+==================================================================
