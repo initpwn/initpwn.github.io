@@ -1,0 +1,234 @@
+/* ========================
+   Joseph Philip Blog - Dark Theme (Final)
+   ======================== */
+
+/* Base layout */
+body {
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+/* Links */
+a {
+  color: #66d9ef;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #8be9fd;
+}
+
+/* Headings and tagline */
+h1, h2, h3, h4, h5, h6,
+.mainheading h1.sitetitle,
+.mainheading h1.posttitle,
+.mainheading p {
+  color: #fff;
+}
+
+.mainheading h1.sitetitle a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Image Caption */
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.5rem;
+}
+
+.image-caption a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.image-caption a:hover {
+  color: #8be9fd;
+  text-decoration: underline;
+}
+
+/* Cards */
+.card,
+.listfeaturedtag .card,
+.listrelated .card {
+  background-color: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f0f0f0;
+}
+
+/* Card Text */
+.card-title,
+.listfeaturedtag h2.card-title,
+.listrecent h2.card-title,
+.card-text,
+.listfeaturedtag h4.card-text,
+.listrecent h4.card-text,
+.card-block,
+.post-preview,
+.article-post {
+  color: #f0f0f0;
+}
+
+.card-title a,
+.card-title-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-title a:hover,
+.card-title-link:hover {
+  color: #fff;
+}
+
+.author-name {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.author-name:hover {
+  color: #fff;
+}
+
+/* Card Footer */
+.card-footer {
+  background-color: #1a1a1a;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-footer .wrapfooter,
+.card-footer span,
+.card-footer a,
+.wrapfooter,
+span.post-date,
+span.author-meta,
+.author-meta,
+.post-top-meta span,
+span.post-read,
+span.post-read-more a {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #1a1a1a;
+}
+
+.card-footer a:hover,
+span.post-name a:hover,
+span.post-read-more a:hover {
+  color: #fff;
+}
+
+span.post-name a,
+span.post-read-more a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Section titles */
+.section-title h2,
+.section-title span {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Navbar */
+.mediumnavigation {
+  background: rgba(0, 0, 0, 0.85) !important;
+  box-shadow: 0 2px 2px -2px rgba(255, 255, 255, 0.1) !important;
+}
+
+.mediumnavigation a,
+.mediumnavigation .navbar-brand,
+.mediumnavigation .nav-item {
+  color: #eee !important;
+}
+
+.mediumnavigation .nav-link:hover {
+  color: #8be9fd !important;
+}
+
+.mediumnavigation .form-control {
+  background-color: #1f1f1f;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.mediumnavigation .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Jumbotron */
+.jumbotron.fortags {
+  background-image: url('../images/jumbotron_dark.webp') !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron.fortags .col-md-4 {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron.fortags a {
+  background: #222;
+  color: #8be9fd;
+}
+
+.jumbotron.fortags a:hover {
+  background: #444;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Images */
+.card img,
+.article-post img,
+.thumbnail img,
+.featured-box-img-cover {
+  filter: brightness(0.9);
+}
+
+/* Forms */
+input,
+textarea {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+.btn.follow {
+  border-color: #8be9fd;
+  color: #66d9ef;
+  padding: 3px 10px;
+  text-align: center;
+  border-radius: 999em;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+/* Share block */
+.share,
+.share a {
+  color: #66d9ef;
+  fill: #66d9ef;
+}
+
+.share a:hover {
+  color: #8be9fd;
+  fill: #8be9fd;
+}
+
+.share p {
+  color: #fff;
+}
+
+.share ul li i.fa {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sep {
+  background: rgba(255, 255, 255, 0.2);
+}
