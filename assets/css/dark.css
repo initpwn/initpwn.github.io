@@ -13,12 +13,18 @@ a {
   color: #66d9ef;
   transition: color 0.2s ease;
 }
+
 a:hover {
   color: #8be9fd;
 }
 
 /* Headings and tagline */
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .mainheading h1.sitetitle,
 .mainheading h1.posttitle,
 .mainheading p {

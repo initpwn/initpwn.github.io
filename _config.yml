@@ -5,7 +5,7 @@ description: "A travel journal of my adventures in data"
 logo: 'assets/images/pen_icon.webp'
 favicon: 'assets/images/pen_icon.webp'
 url: "https://initpwn.github.io"
-baseurl: /blog
+baseurl: /
 # google_analytics: 'UA-46278016-1'
 # disqus: 'demowebsite'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -20,7 +20,7 @@ authors:
     avatar: "assets/images/photo.webp"
     gravatar: https://gravatar.com/initpwn
     linkedin: https://www.linkedin.com/in/initpwn/
-    web: https://www.initpwn.github.io
+    web: https://initpwn.github.io
    # twitter: https://twitter.com/wowthemesnet
     description: "Experienced data and AI programme manager with extensive know-how in leading multidisciplinary teams of data scientists, ML engineers, and subject matter experts to build and implement transformative AI solutions."
   
@@ -39,10 +39,12 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
+
+prefers-color-scheme: dark  
+
 # Pagination 
 paginate: 6
-paginate_path: /blog/page:num/
+paginate_path: /page:num/
     
 # Other
 markdown: kramdown
